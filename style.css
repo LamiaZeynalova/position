@@ -42,6 +42,11 @@
     font-size: 20px;
 
 }
+.nav_list_item i{
+    position: relative;
+    right: 30px;
+    
+}
 
 .navbar ul {
     display: flex;
@@ -173,8 +178,9 @@
     height: 100%;
     margin:10px;
     top:10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+
   
   }
    
@@ -193,6 +199,7 @@
 }
 .cardHead{
     width: 100%;
+    position: relative;
 }
 .card img{
     width: 100%;
@@ -226,11 +233,7 @@ button {
     background-color: #000;
     color:white
   }
- 
- 
- 
-
-.card1{
+.starcard{
     border: 1px solid;
     border-radius: 4px;
     width: 270px;
@@ -244,11 +247,8 @@ button {
 }
 
  
- .card1 img{
+ .starcard img{
     width: 100%;
-
-    
-
 } 
  
 
@@ -258,12 +258,12 @@ button {
     border-radius:3px;
     background-color: black;
     color:white;
-    position:relative;
-    top:-180px;
-    left:115px;
-
+    position:absolute;
+    right:10px;
+    top:15px;
+    padding: 5px;
 }
-.card1 button{
+.starcard button{
         border-radius:5px;
         padding: 10px;
         margin:0 70px;
@@ -273,13 +273,8 @@ button {
 }
  
    
-.cardtext{
-    display:flex;
-    flex-direction: column;
-    gap:5px;
-}
-.star{color:#FFC107;
 
+.star{color:#FFC107;
 }
 
 #footer {
